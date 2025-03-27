@@ -9,11 +9,13 @@ export const POST: RequestHandler = async ({ request }) => {
     const dataOfMasterUser = {
         name: "Mark De Jesus",
         Hobbies: ["playing Genshin Impact", "Playing Call of Duty Mobile", "Playing Wildrift", "Playing Mobile Legends"],
+        Likes: ["Reading Manga/Manwha", "Badminton", "Photography"],
         Food: ["Coffee", "Matcha", "Chicken Wings"],
         Color: ["Black", "White", "Grey"],
         Girlfriend: ["Unknown"],
         Course: ["4th year student of Bachelor of Science in Computer Science"],
         Age: ["22 years old"],
+        Relationship: ["Single"],
         userType: ["Master User"],
     };
 
